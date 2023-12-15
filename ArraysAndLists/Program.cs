@@ -51,8 +51,8 @@ namespace ArraysAndLists
              * display the numbers in your "odds" list
              */
             Console.WriteLine("\nOdd numbers:");
-            foreach (int number in odds)
-                Console.WriteLine(number);
+            for (int i = 0; i < odds.Count; i++)
+                Console.WriteLine(odds[i]);
         }
     }
 }
